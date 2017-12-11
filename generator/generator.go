@@ -14,10 +14,10 @@ import (
 	"go/format"
 
 	"github.com/Sirupsen/logrus"
+	"github.com/daewood/kit/fs"
+	"github.com/daewood/kit/parser"
+	"github.com/daewood/kit/utils"
 	"github.com/dave/jennifer/jen"
-	"github.com/kujtimiihoxha/kit/fs"
-	"github.com/kujtimiihoxha/kit/parser"
-	"github.com/kujtimiihoxha/kit/utils"
 )
 
 // Gen represents a generator.

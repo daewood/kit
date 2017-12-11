@@ -5,9 +5,9 @@ import (
 	"path"
 	"strings"
 
+	"github.com/daewood/kit/fs"
+	"github.com/daewood/kit/utils"
 	"github.com/dave/jennifer/jen"
-	"github.com/kujtimiihoxha/kit/fs"
-	"github.com/kujtimiihoxha/kit/utils"
 	"github.com/spf13/viper"
 )
 
