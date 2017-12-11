@@ -6,7 +6,7 @@ While `gk` did help you create your basic folder structure it was not really abl
 This is what `GoKit Cli` is aiming to change.
 
 
-# Prerequisites 
+# Prerequisites
 GoKit Cli needs to be installed using `go get` and `go install` so `Go` is a requirement to be able to test your services
 [gokit](https://github.com/go-kit/kit) is needed.
 
@@ -18,11 +18,11 @@ GoKit Cli needs to be installed using `go get` and `go install` so `Go` is a req
  - [Generate the client library](#generate-the-client-library)
  - [Generate new middlewares](#generate-new-middleware)
  - [Enable docker integration](#enable-docker-integration)
- 
+
 # Installation
 Before you install please read [prerequisites](#prerequisites)
 ```bash
-go get github.com/kujtimiihoxha/kit
+go get github.com/daewood/kit
 ```
 # Usage
 ```bash
@@ -65,8 +65,8 @@ This command will do these things:
 `hello/cmd/service/service_gen.go`   
 `hello/cmd/main.go`
 
-:warning: **Notice** all the files that end with `_gen` will be regenerated when you add endpoints to your service and 
-you rerun `kit g s hello` :warning: 
+:warning: **Notice** all the files that end with `_gen` will be regenerated when you add endpoints to your service and
+you rerun `kit g s hello` :warning:
 
 You can run the service by running:
 ```bash
@@ -114,9 +114,9 @@ The only thing left to do is add your middleware logic and wire the middleware w
 ```bash
 kit g d
 ```
-This will add the individual service docker files and one `docker-compose.yml` file that will allow you to start 
+This will add the individual service docker files and one `docker-compose.yml` file that will allow you to start
 your services.
-To start your services just run 
+To start your services just run
 ```bash
 docker-compose up
 ```
